@@ -1,0 +1,299 @@
+{
+    "categories": [
+        {
+            "name": "Giris ve Degiskenler",
+            "boxes": [
+                {
+                    "content": "..0.. = ..0.. //Degisken belirleme",
+                    "color": "#90ee90"
+                },
+                {
+                    "content": "..0.. = int(..0..) //Degisken tip donusumu",
+                    "color": "#90ee90"
+                },
+                {
+                    "content": "..0.. = input(\"..0..\") //Kullanicidan veri alma",
+                    "color": "#90ee90"
+                },
+                {
+                    "content": "import ..0.. //Kutuphane ekleme",
+                    "color": "#808080"
+                }
+            ]
+        },
+        {
+            "name": "Cikis ve Terminal",
+            "boxes": [
+                {
+                    "content": "print(\"..0..\") //Terminale metin yazdirma",
+                    "color": "#ff4d4d"
+                },
+                {
+                    "content": "print(..0..) //Terminale degisken yazdirma",
+                    "color": "#ff4d4d"
+                },
+                {
+                    "content": "print(f\"Sonuc: {..0..}\") //Terminale formatli yazdirma",
+                    "color": "#ff4d4d"
+                },
+                {
+                    "content": "exit() //Programi sonlandirma",
+                    "color": "#ff4d4d"
+                }
+            ]
+        },
+        {
+            "name": "Matematik",
+            "boxes": [
+                {
+                    "content": "..0.. = ..0.. + ..0.. //Toplama",
+                    "color": "#add8e6"
+                },
+                {
+                    "content": "..0.. = ..0.. - ..0.. //Cikarma",
+                    "color": "#add8e6"
+                },
+                {
+                    "content": "..0.. = ..0.. * ..0.. //Carpma",
+                    "color": "#add8e6"
+                },
+                {
+                    "content": "..0.. = ..0.. / ..0.. //Bolme",
+                    "color": "#add8e6"
+                },
+                {
+                    "content": "..0.. = round(..0..) //Yuvarlama",
+                    "color": "#add8e6"
+                }
+            ]
+        },
+        {
+            "name": "Kontrol ve Dongu",
+            "boxes": [
+                {
+                    "content": "if ..0.. == ..0..: //Eger soyleyse",
+                    "color": "#ffff00"
+                },
+                {
+                    "content": "elif ..0.. == ..0..: //Eger degilse",
+                    "color": "#ffff00"
+                },
+                {
+                    "content": "else: //Degilse",
+                    "color": "#ffff00"
+                },
+                {
+                    "content": "for i in range(..0..): //Su kadar boyunca dongu ile",
+                    "color": "#ffff00"
+                },
+                {
+                    "content": "while ..0..: //Su kadar boyunca dongu ile",
+                    "color": "#ffff00"
+                },
+                {
+                    "content": "break //Donguyu sonlandir",
+                    "color": "#ffff00"
+                }
+            ]
+        },
+        {
+            "name": "Fonksiyonlar",
+            "boxes": [
+                {
+                    "content": "def ..0..(): //Fonksiyon olusturma",
+                    "color": "#ffff00"
+                },
+                {
+                    "content": "return ..0.. //Fonksiyon sonucu dondur",
+                    "color": "#ffff00"
+                },
+                {
+                    "content": "..0..() //Fonksiyon calistirma",
+                    "color": "#ffff00"
+                }
+            ]
+        },
+        {
+            "name": "Kutuphaneler (Ekstra)",
+            "boxes": [
+                {
+                    "content": "time.sleep(..0..) //Su kadar boyunca beklet",
+                    "color": "#808080"
+                },
+                {
+                    "content": "random.randint(..0.., ..0..) //Su araliklar arasi kadar sayi uret",
+                    "color": "#808080"
+                },
+                {
+                    "content": "os.system(\"..0..\") //Su araliklar arasi kadar sayi uret",
+                    "color": "#808080"
+                }
+            ]
+        },
+        {
+            "name": "about app",
+            "boxes": [
+                {
+                    "content": " ",
+                    "color": "#FFFFFF"
+                }
+            ]
+        },
+        {
+            "name": "Tkinter: Ana Yapi",
+            "boxes": [
+                {
+                    "content": "import tkinter as tk",
+                    "color": "#808080"
+                },
+                {
+                    "content": "..0.. = tk.Tk()",
+                    "color": "#ffff00"
+                },
+                {
+                    "content": "..0..title(\"..0..\")",
+                    "color": "#ffff00"
+                },
+                {
+                    "content": "..0..geometry(\".i0i.x.i0i.\")",
+                    "color": "#ffff00"
+                },
+                {
+                    "content": "..0..mainloop()",
+                    "color": "#ffff00"
+                }
+            ]
+        },
+        {
+            "name": "Tkinter: Widgetlar",
+            "boxes": [
+                {
+                    "content": "..0.. = tk.Label(..0.., text=\"..0..\", bg=\".c0c.\")",
+                    "color": "#90ee90"
+                },
+                {
+                    "content": "..0.. = tk.Button(..0.., text=\"..0..\", bg=\".c0c.\", command=..0..)",
+                    "color": "#90ee90"
+                },
+                {
+                    "content": "..0.. = tk.Entry(..0.., bg=\".c0c.\")",
+                    "color": "#90ee90"
+                }
+            ]
+        },
+        {
+            "name": "Tkinter: Yerlesim",
+            "boxes": [
+                {
+                    "content": "..0...pack(.select:\"side='.c0c.'\",\"padx=.i0i.\",\"pady=.i0i.\")",
+                    "color": "#add8e6"
+                },
+                {
+                    "content": "..0...grid(.select:\"row=.i0i.\",\"column=.i0i.\",\"sticky='.s0s.'\")",
+                    "color": "#add8e6"
+                },
+                {
+                    "content": "..0...place(.select:\"x=.i0i.\",\"y=.i0i.\",\"width=.i0i.\",\"height=.i0i.\")",
+                    "color": "#add8e6"
+                },
+                {
+                    "content": "..0...config(bg=\".c0c.\")",
+                    "color": "#add8e6"
+                }
+            ]
+        },
+        {
+            "name": "Tkinter: Diger Fonksiyonlar",
+            "boxes": [
+                {
+                    "content": "..0.. = tk.StringVar() //String degisken olusturma",
+                    "color": "#add8e6"
+                },
+                {
+                    "content": "..0.. = tk.IntVar() //Integer degisken olusturma",
+                    "color": "#add8e6"
+                },
+                {
+                    "content": "..0.. = tk.BooleanVar() //Boolean degisken olusturma",
+                    "color": "#add8e6"
+                },
+                {
+                    "content": "..0.. = tk.DoubleVar() //Double degisken olusturma",
+                    "color": "#add8e6"
+                }
+            ]
+        }
+    ],
+    "workspace": {
+        "0_0": {
+            "content": "import tkinter as tk",
+            "color": "#808080",
+            "values": []
+        },
+        "1_0": {
+            "content": "..0.. = tk.Tk()",
+            "color": "#ffff00",
+            "values": [
+                "sa"
+            ]
+        },
+        "2_0": {
+            "content": "..0..title(\"..0..\")",
+            "color": "#ffff00",
+            "values": [
+                "",
+                "selam"
+            ]
+        },
+        "3_0": {
+            "content": "..0..geometry(\".i0i.x.i0i.\")",
+            "color": "#ffff00",
+            "values": [
+                "sa",
+                "",
+                "640"
+            ]
+        },
+        "5_0": {
+            "content": "..0...pack(.select:\"side='.c0c.'\",\"padx=.i0i.\",\"pady=.i0i.\")",
+            "color": "#add8e6",
+            "values": [
+                "sa.sol",
+                "",
+                "",
+                "0|"
+            ]
+        },
+        "7_0": {
+            "content": "..0.. = ..0.. //Degisken belirleme",
+            "color": "#90ee90",
+            "values": [
+                "",
+                "1"
+            ]
+        },
+        "8_0": {
+            "content": "..0.. = ..0.. //Degisken belirleme",
+            "color": "#90ee90",
+            "values": [
+                "",
+                "99"
+            ]
+        },
+        "9_0": {
+            "content": "..0.. = ..0.. //Degisken belirleme",
+            "color": "#90ee90",
+            "values": [
+                "",
+                "8"
+            ]
+        },
+        "10_0": {
+            "content": "print(..0..) //Terminale degisken yazdirma",
+            "color": "#ff4d4d",
+            "values": [
+                "a + b + c"
+            ]
+        }
+    }
+}
